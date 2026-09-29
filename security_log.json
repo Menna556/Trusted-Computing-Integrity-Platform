@@ -1,0 +1,65 @@
+[
+    {
+        "timestamp": "2026-09-29 22:57:45",
+        "event": "ACCESS_GRANTED",
+        "message": "Access granted because system integrity was verified.",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-29 22:58:05",
+        "event": "ACCESS_GRANTED",
+        "message": "Access granted because system integrity was verified.",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-29 22:59:29",
+        "event": "ACCESS_GRANTED",
+        "message": "Access granted because system integrity was verified.",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-29 23:02:03",
+        "event": "ACCESS_GRANTED",
+        "message": "Access granted because system integrity was verified.",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-29 23:05:00",
+        "event": "ACCESS_GRANTED",
+        "message": "Access granted because system integrity was verified.",
+        "details": {}
+    },
+    {
+        "timestamp": "2026-09-29 23:07:42",
+        "event": "ACCESS_BLOCKED",
+        "message": "Access blocked because system integrity was compromised.",
+        "details": {
+            "modified_files": [
+                "security_policy.txt"
+            ],
+            "missing_files": []
+        }
+    },
+    {
+        "timestamp": "2026-09-29 23:33:27",
+        "event": "ACCESS_BLOCKED",
+        "message": "Access blocked because system integrity was compromised.",
+        "details": {
+            "modified_files": [
+                "security_policy.txt"
+            ],
+            "missing_files": []
+        }
+    },
+    {
+        "timestamp": "2026-09-29 23:36:18",
+        "event": "ACCESS_BLOCKED",
+        "message": "Access blocked because system integrity was compromised.",
+        "details": {
+            "modified_files": [
+                "security_policy.txt"
+            ],
+            "missing_files": []
+        }
+    }
+]

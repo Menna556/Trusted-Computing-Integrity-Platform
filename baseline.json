@@ -1,0 +1,25 @@
+{
+    "created_at": "2026-09-29 22:44:07",
+    "files": {
+        "access_rules.txt": {
+            "sha256": "1c6e6dedb8586785f244e0505998b6377d888aa49458005c606f35d17bd98dea",
+            "size": 87
+        },
+        "boot_config.txt": {
+            "sha256": "12e5fd95f7e55c19b730793ee582673a233ae576b49e8e379980e9b47a7c7e0d",
+            "size": 73
+        },
+        "protected_app.txt": {
+            "sha256": "ce5d5a0d6f2f464636d0e2878f50afaaae822b5040cd9135c1dca6eb1f958224",
+            "size": 91
+        },
+        "security_policy.txt": {
+            "sha256": "5b17bf4b16600970a05dcd12adfccc7577cb2d73c32eae70bd2cf68330fda4a7",
+            "size": 93
+        },
+        "system_config.txt": {
+            "sha256": "2e595ba40136a819b756815e18c5b63a3f88d5f7d881d409ec4af45eb604177f",
+            "size": 77
+        }
+    }
+}

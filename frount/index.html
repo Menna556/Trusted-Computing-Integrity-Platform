@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Trusted System Integrity Platform</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div>
+            <h1>Trusted System Integrity Platform</h1>
+            <p>Trusted Computing Software Prototype</p>
+        </div>
+
+        <div id="statusBadge" class="status trusted">
+            TRUSTED
+        </div>
+    </header>
+
+
+    <main class="container">
+
+        <!-- Statistics -->
+
+        <section class="stats">
+
+            <div class="card">
+                <h3>Protected Files</h3>
+                <p id="totalFiles">-</p>
+            </div>
+
+            <div class="card">
+                <h3>Trusted</h3>
+                <p id="trustedFiles">-</p>
+            </div>
+
+            <div class="card">
+                <h3>Modified</h3>
+                <p id="modifiedFiles">-</p>
+            </div>
+
+            <div class="card">
+                <h3>Missing</h3>
+                <p id="missingFiles">-</p>
+            </div>
+
+        </section>
+
+
+        <!-- Control Panel -->
+
+        <section class="panel">
+
+            <h2>System Control</h2>
+
+            <div class="buttons">
+
+                <button onclick="verifySystem()">
+                    Verify System
+                </button>
+
+                <button onclick="checkAccess()">
+                    Check Access
+                </button>
+
+                <button onclick="recoverSystem()">
+                    Restore Trusted State
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- Verification Results -->
+
+        <section class="panel">
+
+            <h2>Protected Components</h2>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>File</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody id="fileTable">
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+
+        <!-- Security Logs -->
+
+        <section class="panel">
+
+            <h2>Security Events</h2>
+
+            <div id="logs">
+                No security events loaded.
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>
